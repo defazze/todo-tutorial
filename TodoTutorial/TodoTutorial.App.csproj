@@ -13,4 +13,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TodoTutorial.Data\TodoTutorial.Data.csproj" />
+    <ProjectReference Include="..\TodoTutorial.Domain.Models\TodoTutorial.Domain.Models.csproj" />
+    <ProjectReference Include="..\TodoTutorial.Domain\TodoTutorial.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
