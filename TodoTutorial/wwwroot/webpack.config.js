@@ -8,5 +8,13 @@ module.exports = {
   plugins: [new webpack.HotModuleReplacementPlugin()],
   devServer: {
     port: 3000
+  },
+  module: {
+    rules: [
+      {
+        use: ["babel-loader"],
+        include: path.join(__dirname, "src")
+      }
+    ]
   }
 };

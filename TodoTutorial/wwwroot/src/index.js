@@ -1,7 +1,4 @@
-var React = require("react");
-var { render } = require("react-dom");
+import React from "react";
+import { render } from "react-dom";
 
-render(
-  React.createElement("p", null, "Hello world!"),
-  document.getElementById("root")
-);
+render(<div>Hello world!</div>, document.getElementById("root"));
