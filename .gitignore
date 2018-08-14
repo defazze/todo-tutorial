@@ -2,7 +2,7 @@
 **/bin
 .suo
 /.vs
-/.vscode
+**/.vscode
 /.idea
 node_modules
 *.csproj.user
